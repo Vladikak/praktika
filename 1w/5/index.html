@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title>Шахматный клуб "Конь"</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+		<img src="knight1.png" width="150" heigh="150">
+        <h1>Шахматный клуб "Конь"</h1>
+        <nav>
+            <a href="#history">История шахмат</a>
+            <a href="#rules">Основные правила</a>
+        </nav>
+    </header>
+        <section id="history" style="width: 1200px; margin: auto;">
+            <h2>История шахмат</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/NMSLewisChessmen29.jpg/1280px-NMSLewisChessmen29.jpg" style="width: 50%; display: block; margin: auto">
+            <p><a style="color: black" href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%85%D0%BC%D0%B0%D1%82%D1%8B">Шахматы</a> — это одна из самых древних и популярных по сей день логических игр в мире, а также интеллектуальный вид спорта, высшим достижением в котором является звание чемпиона мира. <br/> История шахмат насчитывает <span style="font-weight: bold">1500 лет</span>. Считается, что игра-прародитель шахмат, чатуранга, появилась в Индии в VI веке нашей эры.</p>
+            <p>Из Индии игра распространилась в Персию, где превратилась в шатрандж. Арабы, завоевавшие Персию, познакомились с этой игрой и принесли её в Европу, где шахматы постепенно приобрели современный вид.</p>
+            <p style="font-style: italic;">"Шахматы — это по форме игра, по содержанию — искусство, а по трудности овладения игрой — наука." Т. Петросян (9-й чемпион мира)</p>
+        </section>
+        
+        <section id="rules" style="width: 1200px; margin: auto;">
+            <h2>Основные правила</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/ChessSet.jpg/800px-ChessSet.jpg" alt="Современные шахматы" style="width: 50%; display: block; margin: auto">
+            <p>Шахматы — это игра для двух игроков на квадратной доске из 64 клеток, которые чередуются между светлыми и тёмными. Каждый игрок начинает игру с 16 фигурами: один король, один ферзь, две ладьи, два слона, два коня и восемь пешек.</p>
+            <p>Цель игры — поставить мат королю противника. Это означает, что король находится под атакой (шах), и игрок не может сделать ни одного хода, чтобы избежать этой атаки.</p>
+            <p>Каждая фигура ходит по-своему:</p>
+            
+            <table>
+                <tr style="background: Silver">
+                    <td>Фигура</td>
+                    <td>Как ходит</td>
+                    <td>Ценность</td>
+                </tr>
+                <tr>
+                    <td>Пешка</td>
+                    <td>На одну клетку вперёд, бьёт по диагонали</td>
+                    <td>1 пешка</td>
+                </tr>
+                <tr>
+                    <td>Конь</td>
+                    <td>Буквой "Г" - на 2 клетки в одном направлении и 1 в перпендикулярном</td>
+                    <td>3 пешки</td>
+                </tr>
+                <tr>
+                    <td>Слон</td>
+                    <td>По диагонали на любое расстояние</td>
+                    <td>3 пешки</td>
+                </tr>
+                <tr>
+                    <td>Ладья</td>
+                    <td>По горизонтали или вертикали на любое расстояние</td>
+                    <td>5 пешек</td>
+                </tr>
+                <tr>
+                    <td>Ферзь</td>
+                    <td>По горизонтали, вертикали или диагонали на любое расстояние</td>
+                    <td>9 пешек</td>
+                </tr>
+                <tr>
+                    <td>Король</td>
+                    <td>На одну клетку в любом направлении</td>
+                    <td>Бесценен</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section style="width: 1200px; margin: auto;">
+            <h2>Оставьте свой вопрос</h2>
+            <form>
+                <label for="name">Ваше ФИО:</label>
+                <input type="text" name="name" required>
+                
+                <label for="email">Ваш номер телефона или email:</label>
+                <input type="email" name="email" required>
+                
+                <label for="message">Ваш вопрос:</label>
+                <textarea name="message" rows="5" required></textarea>
+                
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    
+    <footer>
+        <p>Шахматный клуб "Конь"</p>
+        <p>Адрес: г. Барнаул, пр-кт Ленина, д. 1234</p>
+        <p>Телефон: +79131234567</p>
+		<p><a href="https://vk.com"><img src="vk.png" width="100"></a> <a href="https://web.telegram.org"><img src="tg.png" width="100"></a></p>
+    </footer>
+</body>
+</html>
