@@ -1,0 +1,32 @@
+body{
+	font-family: 'Arial';
+	font-size:20px;
+}
+
+a {
+	color: black
+}
+
+img, p {
+	border: 3px solid peru;
+}
+
+table {
+	background-color: LightYellow;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid peru;
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid peru;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	background: peru
+}
+
