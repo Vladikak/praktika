@@ -1,0 +1,15 @@
+a {
+	color:black;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px;
+	border: 2px solid green;
+	margin: 190;
+	text-align: center;
+}
+body {
+	font-family: "Arial";
+}
+h1 {
+	text-align: center;
+}
