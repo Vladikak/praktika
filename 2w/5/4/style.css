@@ -1,0 +1,96 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 870px;
+	margin: 0 auto;
+}
+
+.main-info {
+	float: left;
+	width: 400px;
+}
+
+.ad {
+	float: right;
+	width: 350px;
+	margin-top: 90px;
+	padding: 30px;
+	border: 2px dotted navy;
+}
+
+.reviews {
+	width: 870px;
+	float: left;
+	margin-left: 30px;
+	clear: both;
+	margin-top: 20px;
+}
+
+.review {
+	border-left: 10px double navy;
+	width: 350px;
+	height: auto;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.review p {
+	font-size: 20px;
+}
+
+.review h2 {
+	font-weight: normal;
+	color: firebrick;
+	font-size: 20px;
+	border-bottom: 1px dotted firebrick;
+	display: inline-block;
+	margin: 0px;
+	padding:0px;
+}
+.main-info h1 {
+	color: purple;
+	
+}
+.main-info h2 {
+	color: navy;
+	font-size: 20px;
+}
+.main-info p {
+	font-size: 20px;
+}
+.ad h2 {
+	color: indigo;
+}
+
+.ad p a {
+	text-decoration:underline;
+	text-decoration-style: dotted;
+}
+
+.review h2::before{
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png');
+	background-size: contain;
+	position: relative;
+}
+
+.review::after {
+	content: "";
+	display: block;
+	width: 30px;
+	height: 35px;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/13/Facebook_like_thumb.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.review:hover::after {
+	border-bottom: 3px dotted goldenrod;
+}

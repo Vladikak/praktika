@@ -1,0 +1,29 @@
+.bordered {
+	border-left: 2px solid green;
+	padding-left: 10px;
+	height: auto;
+}
+
+table {
+	border-collapse: collapse;
+	font-family: Arial;
+}
+
+th, td {
+	font-weight: normal;
+	border: 2px solid purple;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: lightblue;
+}
+
+td:first-child {
+	background-color: lightblue;
+}
+
+tr:last-child {
+	background-color: orange;
+}

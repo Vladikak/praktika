@@ -1,0 +1,15 @@
+h1 {
+	font-family: Arial;
+	color: white;
+	background: indigo;
+	padding: 10px;
+}
+
+img {
+	height: 200px;
+}
+
+p, ul {
+	font-family: Arial;
+	margin-top: 25px;
+}

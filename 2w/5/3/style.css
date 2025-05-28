@@ -1,0 +1,28 @@
+body {
+	font-family: Arial;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-top: 2px solid blueviolet;
+	border-bottom: 2px solid blueviolet;
+}
+nav a {
+	text-decoration: none;
+	color: royalblue;
+	text-align: center
+}
+nav a:first-child {
+	background-color: royalblue;
+	color: white;
+	border-radius: 10px;
+	margin-top: 5px;
+	padding: 10px;
+}
+nav a:last-child {
+	border: 3px solid royalblue;
+	border-radius: 10px;
+	margin-top: 5px;
+	padding: 10px;
+}

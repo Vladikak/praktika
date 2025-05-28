@@ -1,0 +1,58 @@
+nav {
+	height: 30px;
+	border-top: 2px solid blueviolet;
+	border-bottom: 2px solid blueviolet;
+	text-align: center;
+	padding-top: 10px;
+}
+nav a {
+	text-decoration: none;
+	font-size: 30px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-size: 50px;
+}
+
+h2 {
+	background-color: aqua;
+	color: purple;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+
+}
+
+footer {
+	background-color: #8fddf2;
+	padding: 5px;
+	position: relative;
+}
+
+footer p {
+	background-color: white;
+	padding: 5px;
+
+}
+
+.posts {
+	width:1000px;
+	height:450px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.column {
+	width: 250px;
+	padding: 10px;
+	box-sizing: border-box;
+}

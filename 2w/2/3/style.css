@@ -1,0 +1,20 @@
+h1 {
+	font-family: Arial;
+	color: black;
+	background: lightgreen;
+	padding: 10px;
+}
+
+p, ul {
+	font-family: Arial;
+	margin-top: 20px;
+}
+
+ul {
+	list-style-type: '♪ ';
+	padding-left: 30px;
+}
+
+ul li {
+	padding-left: 15px;
+}

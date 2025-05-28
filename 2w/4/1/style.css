@@ -1,0 +1,14 @@
+.home_robot {
+	font-family: "Arial";
+	background-color: lightblue;
+	border-radius: 30px;
+	padding: 20px;
+	width: 220px;
+}
+
+h1 {
+	font-size: 24px;
+	font-family: "Arial";
+	border-bottom: 3px dashed navy;
+	width: 210px;
+}
