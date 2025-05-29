@@ -1,5 +1,3 @@
-# https://vladikak.github.io/praktika/
-
 <html>
 	<head>
 		<style>
