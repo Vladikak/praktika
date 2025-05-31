@@ -8,7 +8,7 @@
 		</style>
 	</head>
 	<body>
-		<h1>Неделя 1</h1>
+		<h1>Неделя 2</h1>
 		<h2>Задание 2</h2>
 		<a href="https://vladikak.github.io/praktika/2w/2/1/index.html">1</a>
 		<a href="https://vladikak.github.io/praktika/2w/2/2/index.html">2</a>
