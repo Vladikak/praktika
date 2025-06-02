@@ -1,0 +1,151 @@
+<html>
+<head>
+    <title>Регистрация</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo-nav-container">
+                <img src="../images/logo.png" style="margin: 0 auto;">
+                <div class="logo">Моя семья – мой космос</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../registration/registration.html">Регистрация</a></li>
+                    <li><a href="../index/index.html#auth">Авторизация</a></li>
+                    <li><a href="../account/account.html">Личный кабинет</a></li>
+                    <li><a href="../index/index.html#about">О нас</a></li>
+                    <li><a href="../index/index.html#competitions">Конкурсы</a></li>
+                    <li><a href="../index/index.html#search">Поиск</a></li>
+                    <li><a href="../index/index.html#contacts">Контакты</a></li>
+                    <li><a href="../index-light/index-light.html">Светлая тема</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <form class="registration-form" novalidate>
+            <h1 class="form-title">Регистрация</h1>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email" class="required">Email</label>
+                    <input type="email" id="email" required>
+                    <div class="error-message">Пожалуйста, введите email</div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="required">Пароль</label>
+                    <input type="password" id="password" required minlength="6">
+                    <div class="error-message">Пароль должен содержать минимум 6 символов</div>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="first-name" class="required">Имя</label>
+                    <input type="text" id="first-name" required>
+                    <div class="error-message">Пожалуйста, введите имя</div>
+                </div>
+                <div class="form-group">
+                    <label for="last-name" class="required">Фамилия</label>
+                    <input type="text" id="last-name" required>
+                    <div class="error-message">Пожалуйста, введите фамилию</div>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="age" class="required">Возраст</label>
+                    <input type="number" id="age" min="1" max="120" required>
+                    <div class="error-message">Пожалуйста, укажите возраст</div>
+                </div>
+                <div class="form-group">
+                    <label for="gender" class="required">Пол</label>
+                    <select id="gender" required>
+                        <option value="">Выберите пол</option>
+                        <option value="male">Мужской</option>
+                        <option value="female">Женский</option>
+                    </select>
+                    <div class="error-message">Пожалуйста, выберите пол</div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="confirm-password" class="required">Повторите пароль</label>
+                <input type="password" id="confirm-password" required>
+                <div class="error-message">Пожалуйста, повторите пароль</div>
+            </div>
+            
+            <div class="form-group">
+                <label class="required">Семейная фотография</label>
+                <div class="photo-upload">
+                    <p>Перетащите сюда фото или нажмите для выбора</p>
+                    <input type="file" id="family-photo" style="display: none;" required>
+                    <div class="error-message">Пожалуйста, загрузите фото</div>
+                </div>
+            </div>
+            
+            <h3>Члены семьи</h3>
+            
+            <div class="family-member">
+                <span class="remove-member">X</span>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="member1-first-name">Имя</label>
+                        <input type="text" id="member1-first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="member1-last-name">Фамилия</label>
+                        <input type="text" id="member1-last-name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="member1-age">Возраст</label>
+                        <input type="number" id="member1-age" min="1" max="120">
+                    </div>
+                    <div class="form-group">
+                        <label for="member1-gender">Пол</label>
+                        <select id="member1-gender">
+                            <option value="">Выберите пол</option>
+                            <option value="male">Мужской</option>
+                            <option value="female">Женский</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <button type="button" class="add-member">+ Добавить члена семьи</button>
+            
+            <div class="checkbox-group">
+                <input type="checkbox" id="agree" required>
+                <label for="agree" class="required">Я согласен на обработку персональных данных</label>
+                <div class="error-message">Необходимо ваше согласие</div>
+            </div>
+            
+            <button type="submit" class="submit-btn">Зарегистрироваться</button>
+        </form>
+    </main>
+
+    <footer id="contacts">
+        <div class="container footer-content">
+            <div>
+                <p><a href="tel:+74842234567">+7 (4842) 23-45-67</a></p>
+                <p><a href="mailto:family@cosmos.ru">family@cosmos.ru</a></p>
+            </div>
+            <div class="footer-nav">
+                <ul>
+					<li><a href="../index/index.html">Главная</a></li>
+                    <li><a href="../index-light/index-light.html">Главная-светлая</a></li>
+                    <li><a href="../registration/registration.html">Регистрация</a></li>
+                    <li><a href="../schedule/schedule.html">Конкурс</a></li>
+                    <li><a href="../account/account.html">Личный кабинет</a></li>
+                    <li><a href="../404/404.html">Страница не найдена</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
