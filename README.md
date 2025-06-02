@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<h1>Итоговый проект</h1>
-		<a href="/site//index/index.html">Главная</a>
+		<a href="https://vladikak.github.io/praktika/site/index/index.html">Главная</a>
 		<h1>Неделя 2</h1>
 		<h2>Задание 2</h2>
 		<a href="https://vladikak.github.io/praktika/2w/2/1/index.html">1</a>
